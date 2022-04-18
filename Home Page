@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+
+
+<div class="fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand"> 
+        <img src="photo_2022-04-12_15-49-51.jpg" 
+        width="100" 
+        height="100"
+        style="margin-top: -1px;"
+        alt=""> Our Book Store 
+      </a>
+   
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search"
+          placeholder="Search books, authors" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" 
+          type="submit">Search
+        </button>
+      </form>
+
+      <div class="d-flex align-items-center">
+        <button type="button" class="btn btn-link px-3 me-2">
+          Login
+        </button>
+        <button type="button" class="btn btn-primary me-3">
+          Sign up 
+        </button>
+        <i class="fa fa-shopping-cart"></i>
+      </div>
+    
+    </div>
+  </nav>
+
+
+  
+
+    
+  
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a href="#B" data-toggle="collapse" class="novbar-toggler" 
+         aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span>
+      </a>
+      <div id="B" class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a href="#" class="nav-link">Popular Subjects</a></li>
+            <li class="nav-item active"><a href="#" class="nav-link">Fiction</a></li>
+            <li class="nav-item active"><a href="#" class="nav-link">Non-Fiction</a></li>
+            <li class="nav-item active"><a href="#" class="nav-link">Best Sellers</a></li>
+            <li class="nav-item active"><a href="#" class="nav-link">New Releases</a></li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+</div>
+    
+
+
+
+    <div id="slide" class="carousel slide container w-50"  data-ride="carousel" >
+        <ol class="carousel-indicators">
+          <li data-target="#slide" data-slide-to="0" class="active"></li>
+          <li data-target="#slide" data-slide-to="1"></li>
+          <li data-target="#slide" data-slide-to="2"></li>
+          <li data-target="#slide" data-slide-to="3"></li>
+          <li data-target="#slide" data-slide-to="4"></li>
+          <li data-target="#slide" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="book (1).jpg" class=" w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="book (1).png" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="book (2).jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="book (3).jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="book (4).jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="book (5).jpg" class="w-100" alt="...">
+          </div>
+        </div>
+        <a href="#slide" class="carousel-control-next"  data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <a href="#slide" class="carousel-control-prev"  data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+    
+    </div>
+
+
+
+    
+    
+
+    
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+ </body>
+
+</html>
